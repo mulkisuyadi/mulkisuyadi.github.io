@@ -1,0 +1,45 @@
+[
+  {
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "translation": "Saya",
+    "audio": "wo.mp3",
+    "sentences": [
+      { "hanzi": "我是学生。", "pinyin": "Wǒ shì xuéshēng.", "translation": "Saya adalah seorang siswa.", "audio": "wo-shi-xuesheng.mp3" },
+      { "hanzi": "我很好。", "pinyin": "Wǒ hěn hǎo.", "translation": "Saya baik-baik saja.", "audio": "wo-hen-hao.mp3" },
+      { "hanzi": "我叫小李。", "pinyin": "Wǒ jiào Xiǎo Lǐ.", "translation": "Nama saya Xiao Li.", "audio": "wo-jiao-xiaoli.mp3" },
+      { "hanzi": "我喜欢中国菜。", "pinyin": "Wǒ xǐhuān Zhōngguó cài.", "translation": "Saya suka masakan Tiongkok.", "audio": "wo-xihuan-zhongguo-cai.mp3" }
+    ]
+  },
+  {
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "translation": "Kamu",
+    "audio": "ni.mp3",
+    "sentences": [
+      { "hanzi": "你好吗？", "pinyin": "Nǐ hǎo ma?", "translation": "Apa kabar?", "audio": "ni-hao-ma.mp3" },
+      { "hanzi": "你叫什么名字？", "pinyin": "Nǐ jiào shénme míngzì?", "translation": "Siapa namamu?", "audio": "ni-jiao-shenme-mingzi.mp3" }
+    ]
+  },
+  {
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "translation": "Baik / Bagus",
+    "audio": "hao.mp3",
+    "sentences": [
+      { "hanzi": "你好！", "pinyin": "Nǐ hǎo!", "translation": "Halo!", "audio": "ni-hao.mp3" },
+      { "hanzi": "我很好。", "pinyin": "Wǒ hěn hǎo.", "translation": "Saya baik-baik saja.", "audio": "wo-hen-hao.mp3" },
+      { "hanzi": "老师好！", "pinyin": "Lǎoshī hǎo!", "translation": "Halo, guru!", "audio": "laoshi-hao.mp3" }
+    ]
+  },
+  {
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "translation": "Cinta / Suka",
+    "audio": "ai.mp3",
+    "sentences": [
+      { "hanzi": "我爱你。", "pinyin": "Wǒ ài nǐ.", "translation": "Saya cinta kamu.", "audio": "wo-ai-ni.mp3" },
+      { "hanzi": "我爱妈妈。", "pinyin": "Wǒ ài māma.", "translation": "Saya cinta ibu.", "audio": "wo-ai-mama.mp3" }
+    ]
+  }
+]
