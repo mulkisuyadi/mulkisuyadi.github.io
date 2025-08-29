@@ -32,7 +32,6 @@ document.querySelectorAll('.tab-buttons').forEach(buttonGroup => {
       const targetPane = section.querySelector(`#${tabId}`);
       if (targetPane) targetPane.classList.add('active');
 
-      // If we switched into Percakapan Materi, ensure a default card is selected
       if (tabId === 'percakapan-materi') {
         const visibleWeek = targetPane.querySelector('.week-content:not([style*="display: none"])') 
                          || targetPane.querySelector('#week1');
@@ -99,24 +98,38 @@ function playAudio(file) {
   audio.play();
 }
 
-// ==== Card selection + content update (SCOPED to the current tab) ====
+// ==== Card selection + content update ====
 function updateContent(card) {
-  const scope = card.closest('.tab-content'); // HSK1 or Percakapan tab
+  const scope = card.closest('.tab-content');
   if (!scope) return;
 
-  // Find featured panel: prefer local .featured-hanzi, fallback to #featured-hanzi for HSK1
-  const featuredHanzi = scope.querySelector('.featured-hanzi') 
-                     || document.querySelector('#featured-hanzi');
-  const exampleSentences = scope.querySelector('.example-sentences') 
-                        || document.querySelector('.example-sentences');
+  const featuredHanzi =
+    scope.querySelector('.featured-hanzi') ||
+    document.querySelector('#featured-hanzi');
+
+  let exampleSentences = scope.querySelector('.example-sentences');
+  if (!exampleSentences) {
+    exampleSentences = document.createElement('div');
+    exampleSentences.className = 'example-sentences';
+    exampleSentences.innerHTML = `
+      <div class="default-message">
+        <p>Klik kata di bawah untuk melihat contoh kalimat</p>
+        <p>Click a word below to see example sentences</p>
+      </div>
+    `;
+    (featuredHanzi?.parentNode || scope).insertBefore(
+      exampleSentences,
+      featuredHanzi ? featuredHanzi.nextSibling : null
+    );
+  }
 
   if (!featuredHanzi || !exampleSentences) return;
 
-  const hanzi = card.getAttribute("data-hanzi") || "";
-  const pinyin = card.getAttribute("data-pinyin") || "";
-  const translation = card.getAttribute("data-translation") || "";
-  const audio = card.getAttribute("data-audio") || "";
-  const sentences = JSON.parse(card.getAttribute("data-sentences") || "[]");
+  const hanzi = card.dataset.hanzi || "";
+  const pinyin = card.dataset.pinyin || "";
+  const translation = card.dataset.translation || "";
+  const audio = card.dataset.audio || "";
+  const sentences = JSON.parse(card.dataset.sentences || "[]");
 
   featuredHanzi.innerHTML = `
     <div class="hanzi-display">${hanzi || "—"}</div>
@@ -132,19 +145,22 @@ function updateContent(card) {
 
   exampleSentences.classList.add("has-content");
   exampleSentences.innerHTML = sentences.length
-    ? sentences.map(s => `
-        <div class="sentence-card">
-          <div class="sentence-hanzi">${s.hanzi}</div>
-          <div class="sentence-pinyin">${s.pinyin}</div>
-          <div class="sentence-translation">${s.translation}</div>
-          <div class="sentence-audio">
-            <button class="audio-btn-small" onclick="playAudio('${s.audio}')">
-              <i class="fas fa-play"></i>
-            </button>
-          </div>
+  ? sentences.map(s => `
+      <div class="sentence-card">
+        <div class="sentence-hanzi">${s.hanzi || ""}</div>
+        <div class="sentence-pinyin">${s.pinyin || ""}</div>
+        <div class="sentence-translation">${s.translation || ""}</div>
+        <div class="sentence-audio">
+          <button class="audio-btn-small" 
+                  ${s.audio ? `onclick="playAudio('${s.audio}')"` : "disabled"}>
+            <i class="fas fa-play"></i>
+          </button>
+          ${!s.audio ? "<span class='no-audio'>No audio</span>" : ""}
         </div>
-      `).join("")
-    : `<div class="default-message"><p>Tidak ada contoh kalimat.</p></div>`;
+      </div>
+    `).join("")
+  : `<div class="default-message"><p>Tidak ada contoh kalimat.</p></div>`;
+
 }
 
 function selectCard(card) {
@@ -162,7 +178,6 @@ function autoSelectFirstCardIn(container) {
   }
 }
 
-// ==== Event delegation for ALL vocab cards (works for both sections) ====
 document.addEventListener('click', (e) => {
   const card = e.target.closest('.vocab-card');
   if (!card) return;
@@ -187,17 +202,16 @@ function showWeek(weekId) {
   if (activeBtn) activeBtn.classList.add('active');
 }
 
-// ==== Attach week button listeners + initial state ====
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('#percakapan-materi .week-buttons button');
   buttons.forEach(button => {
     button.addEventListener('click', () => showWeek(button.dataset.week));
   });
 
-  // Show Week 1 by default and select its first card
   showWeek('week1');
 
-  // HSK1 default select (keeps your old behavior)
   const defaultHSKCard = document.querySelector('#hsk1-materi .vocab-card[data-hanzi="我"]') 
                       || document.querySelector('#hsk1-materi .vocab-card');
   if (defaultHSKCard) {
@@ -205,3 +219,169 @@ document.addEventListener('DOMContentLoaded', () => {
     updateContent(defaultHSKCard);
   }
 });
+
+
+// ==== ✅ Unified vocab renderer ====
+function renderVocabCards(items, gridSelector) {
+  const grid = document.querySelector(gridSelector);
+  if (!grid) return;
+  grid.innerHTML = "";
+
+  items.forEach(v => {
+    const div = document.createElement("div");
+    div.className = "vocab-card";
+
+    const sentences = (v.sentences || []).map(s => ({
+      hanzi: s.hanzi || s.cn || "",
+      pinyin: s.pinyin || "",
+      translation: s.translation || s.id || "",
+      audio: s.audio || ""
+    }));
+
+    div.dataset.hanzi = v.hanzi || "";
+    div.dataset.pinyin = v.pinyin || "";
+    div.dataset.translation = v.translation || v.arti || "";
+    div.dataset.audio = v.audio || "";
+    div.dataset.sentences = JSON.stringify(sentences);
+
+    div.innerHTML = `
+      <p class="hanzi">${v.hanzi || ""}</p>
+      <p class="pinyin">${v.pinyin || ""}</p>
+      <p class="translation">${v.translation || v.arti || ""}</p>
+    `;
+    grid.appendChild(div);
+  });
+
+  if (grid.children.length) autoSelectFirstCardIn(grid);
+}
+
+// === Load vocab.json (HSK1 Materi) ===
+fetch("data/vocab.json")
+  .then(res => res.json())
+  .then(data => renderVocabCards(data.hsk1 || [], "#hsk1-materi .vocab-grid"))
+  .catch(err => console.error("Failed to load data/vocab.json:", err));
+
+// === Load weeks.json (Percakapan Materi) ===
+fetch("data/weeks.json")
+  .then(res => res.json())
+  .then(data => {
+    if (!data.weeks) return;
+
+    for (const week in data.weeks) {
+      const container = document.querySelector(`#${week} .vocab-container`);
+      if (!container) continue;
+      container.innerHTML = "";
+
+      data.weeks[week].forEach(v => {
+        const div = document.createElement("div");
+        div.className = "vocab-card";
+
+        const sentences = (v.sentences || []).map(s => ({
+          hanzi: s.hanzi || s.cn || "",
+          pinyin: s.pinyin || "",
+          translation: s.translation || s.id || "",
+          audio: s.audio || ""
+        }));
+
+        div.dataset.hanzi = v.hanzi || "";
+        div.dataset.pinyin = v.pinyin || "";
+        div.dataset.translation = (v.translation || v.arti || "");
+        div.dataset.audio = v.audio || "";
+        div.dataset.sentences = JSON.stringify(sentences);
+
+        div.innerHTML = `
+          <p class="hanzi">${v.hanzi || ""}</p>
+          <p class="pinyin">${v.pinyin || ""}</p>
+          <p class="translation">${v.translation || v.arti || ""}</p>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    // ✅ All weeks rendered, now attach week buttons + initial state
+    const buttons = document.querySelectorAll('#percakapan-materi .week-buttons button');
+    buttons.forEach(button => {
+      button.addEventListener('click', () => showWeek(button.dataset.week));
+    });
+
+    // ✅ Show Week 1 by default after async render
+    showWeek('week1');
+  })
+  .catch(err => console.error("Failed to load data/weeks.json:", err));
+
+
+
+// === Render story + quizzes from JSON ===
+async function loadQuizzes() {
+  try {
+    const res = await fetch("data/quizzes.json");
+    const data = await res.json();
+
+    const container = document.getElementById("hsk1-membaca");
+    container.innerHTML = "";
+
+    if (data.story) {
+      const storyTitle = document.createElement("h3");
+      storyTitle.textContent = "Latihan Membaca";
+      container.appendChild(storyTitle);
+
+      const storyHeading = document.createElement("p");
+      storyHeading.innerHTML = `<strong>${data.story.title}</strong>`;
+      container.appendChild(storyHeading);
+
+      data.story.content.forEach(line => {
+        const p = document.createElement("p");
+        p.textContent = line;
+        container.appendChild(p);
+      });
+
+      const questionHeader = document.createElement("h4");
+      questionHeader.textContent = "Pertanyaan:";
+      container.appendChild(questionHeader);
+    }
+
+    if (data.hsk1 && Array.isArray(data.hsk1)) {
+      data.hsk1.forEach(q => {
+        const form = document.createElement("form");
+        form.classList.add("quiz-form");
+
+        form.innerHTML = `
+          <p>${q.question}</p>
+          ${q.options.map(opt => `
+            <label>
+              <input type="radio" name="${q.id}" value="${opt.value}">
+              ${opt.label}
+            </label><br>
+          `).join("")}
+          <button type="submit">提交</button>
+          <div class="feedback"></div>
+        `;
+
+        form.addEventListener("submit", e => {
+          e.preventDefault();
+          const selected = form.querySelector("input[type=radio]:checked");
+          const feedback = form.querySelector(".feedback");
+
+          if (!selected) {
+            feedback.textContent = "⚠️ 请选择一个答案";
+            feedback.style.color = "orange";
+            return;
+          }
+
+          if (selected.value === q.correct) {
+            feedback.textContent = q.correctMsg;
+            feedback.style.color = "green";
+          } else {
+            feedback.textContent = q.wrongMsg;
+            feedback.style.color = "red";
+          }
+        });
+
+        container.appendChild(form);
+      });
+    }
+  } catch (err) {
+    console.error("加载测验失败:", err);
+  }
+}
+loadQuizzes();
