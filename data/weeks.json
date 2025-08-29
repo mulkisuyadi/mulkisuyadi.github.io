@@ -694,31 +694,31 @@
     "hanzi": "陈化过程",
     "pinyin": "chén huà guò chéng",
     "arti": "Proses Pematangan",
-    "audio": "/audio/chenhuaguocheng.mp3",
+    "audio": "audio/chenhuaguocheng.mp3",
     "sentences": [
-      { "cn": "这个是陈化过程。", "pinyin": "Zhège shì chénhuà guòchéng.", "id": "Ini adalah proses pematangan.", "audio": "/audio/Zhège shì chénhuà guòchéng.mp3"}
+      { "cn": "这个是陈化过程。", "pinyin": "Zhège shì chénhuà guòchéng.", "id": "Ini adalah proses pematangan.", "audio": "audio/Zhège shì chénhuà guòchéng.mp3"}
     ]
   },
   {
     "hanzi": "分析室",
     "pinyin": "fēn xī shì",
     "arti": "Ruang Analisis",
-    "audio": "/audio/fenxishi.mp3",
+    "audio": "audio/fenxishi.mp3",
     "sentences": [
-      { "cn": "样品在分析室里。", "pinyin": "Yàngpǐn zài fēnxīshì lǐ.", "id": "Sampel ada di ruang analisis.", "audio": "/audio/Yàngpǐn zài fēnxīshì lǐ.mp3"}
+      { "cn": "样品在分析室里。", "pinyin": "Yàngpǐn zài fēnxīshì lǐ.", "id": "Sampel ada di ruang analisis.", "audio": "audio/Yàngpǐn zài fēnxīshì lǐ.mp3"}
     ]
   },
  {
   "hanzi": "纯水系统",
   "pinyin": "chún shuǐ xì tǒng",
   "arti": "Sistem Air Murni",
-  "audio": "/audio/chunshuixitong.mp3",
+  "audio": "audio/chunshuixitong.mp3",
   "sentences": [
     {
       "cn": "纯水系统正在运行。",
       "pinyin": "Chúnshuǐ xìtǒng zhèngzài yùnxíng.",
       "id": "Sistem air murni sedang berjalan.",
-      "audio": "/audio/Chúnshuǐ xìtǒng zhèngzài yùnxíng.mp3"
+      "audio": "audio/Chúnshuǐ xìtǒng zhèngzài yùnxíng.mp3"
     }
   ]
 },
@@ -726,13 +726,13 @@
   "hanzi": "没问题",
   "pinyin": "méi wèntí",
   "arti": "Tidak Masalah",
-  "audio": "/audio/meiwenti.mp3",
+  "audio": "audio/meiwenti.mp3",
   "sentences": [
     {
       "cn": "这个没问题。",
       "pinyin": "Zhège méi wèntí.",
       "id": "Ini tidak masalah.",
-      "audio": "/audio/Zhège méi wèntí.mp3"
+      "audio": "audio/Zhège méi wèntí.mp3"
     }
   ]
 },
@@ -740,13 +740,13 @@
   "hanzi": "不客气",
   "pinyin": "bù kèqi",
   "arti": "Sama-sama",
-  "audio": "/audio/bukeqi.mp3",
+  "audio": "audio/bukeqi.mp3",
   "sentences": [
     {
       "cn": "谢谢！— 不客气。",
       "pinyin": "Xièxie! — Bù kèqi.",
       "id": "Terima kasih! — Sama-sama.",
-      "audio": "/audio/Xièxie! — Bù kèqi.mp3"
+      "audio": "audio/Xièxie! — Bù kèqi.mp3"
     }
   ]
 },
@@ -754,13 +754,13 @@
   "hanzi": "我渴了",
   "pinyin": "wǒ kě le",
   "arti": "Saya Haus",
-  "audio": "/audio/wokele.mp3",
+  "audio": "audio/wokele.mp3",
   "sentences": [
     {
       "cn": "我渴了，想喝水。",
       "pinyin": "Wǒ kě le, xiǎng hē shuǐ.",
       "id": "Saya haus, ingin minum air.",
-      "audio": "/audio/Wǒ kě le, xiǎng hē shuǐ.mp3"
+      "audio": "audio/Wǒ kě le, xiǎng hē shuǐ.mp3"
     }
   ]
 },
@@ -768,13 +768,13 @@
   "hanzi": "我饿了",
   "pinyin": "wǒ è le",
   "arti": "Saya Lapar",
-  "audio": "/audio/woele.mp3",
+  "audio": "audio/woele.mp3",
   "sentences": [
     {
       "cn": "我饿了，想吃饭。",
       "pinyin": "Wǒ è le, xiǎng chīfàn.",
       "id": "Saya lapar, ingin makan.",
-      "audio": "/audio/Wǒ è le, xiǎng chīfàn.mp3"
+      "audio": "audio/Wǒ è le, xiǎng chīfàn.mp3"
     }
   ]
 },
@@ -782,13 +782,13 @@
   "hanzi": "你来了吗？",
   "pinyin": "nǐ lái le ma?",
   "arti": "Apakah Kamu Sudah Datang?",
-  "audio": "/audio/nilailema.mp3",
+  "audio": "audio/nilailema.mp3",
   "sentences": [
     {
       "cn": "你来了吗？",
       "pinyin": "Nǐ lái le ma?",
       "id": "Apakah kamu sudah datang?",
-      "audio": "/audio/nilailema.mp3"
+      "audio": "audio/nilailema.mp3"
     }
   ]
 },
@@ -796,13 +796,13 @@
   "hanzi": "你忙吗？",
   "pinyin": "nǐ máng ma?",
   "arti": "Apakah Kamu Sibuk?",
-  "audio": "/audio/nimangma.mp3",
+  "audio": "audio/nimangma.mp3",
   "sentences": [
     {
       "cn": "你忙吗？",
       "pinyin": "Nǐ máng ma?",
       "id": "Apakah kamu sibuk?",
-      "audio": "/audio/nimangma.mp3"
+      "audio": "audio/nimangma.mp3"
     }
   ]
 },
@@ -810,13 +810,13 @@
   "hanzi": "你开心吗？",
   "pinyin": "nǐ kāixīn ma?",
   "arti": "Apakah Kamu Senang?",
-  "audio": "/audio/nikaixinma.mp3",
+  "audio": "audio/nikaixinma.mp3",
   "sentences": [
     {
       "cn": "你开心吗？",
       "pinyin": "Nǐ kāixīn ma?",
       "id": "Apakah kamu senang?",
-      "audio": "/audio/nikaixinma.mp3"
+      "audio": "audio/nikaixinma.mp3"
     }
   ]
 },
@@ -824,13 +824,13 @@
   "hanzi": "什么",
   "pinyin": "shénme",
   "arti": "Apa",
-  "audio": "/audio/shenme.mp3",
+  "audio": "audio/shenme.mp3",
   "sentences": [
     {
       "cn": "这是什么？",
       "pinyin": "Zhè shì shénme?",
       "id": "Ini apa?",
-      "audio": "/audio/Zhè shì shénme.mp3"
+      "audio": "audio/Zhè shì shénme.mp3"
     }
   ]
 },
@@ -838,13 +838,13 @@
   "hanzi": "谁",
   "pinyin": "shéi",
   "arti": "Siapa",
-  "audio": "/audio/shei.mp3",
+  "audio": "audio/shei.mp3",
   "sentences": [
     {
       "cn": "他是谁？",
       "pinyin": "Tā shì shéi?",
       "id": "Siapa dia?",
-      "audio": "/audio/Tā shì shéi.mp3"
+      "audio": "audio/Tā shì shéi.mp3"
     }
   ]
 },
@@ -852,13 +852,13 @@
   "hanzi": "什么时候",
   "pinyin": "shénme shíhou",
   "arti": "Kapan",
-  "audio": "/audio/shenmeshihou.mp3",
+  "audio": "audio/shenmeshihou.mp3",
   "sentences": [
     {
       "cn": "你什么时候来？",
       "pinyin": "Nǐ shénme shíhou lái?",
       "id": "Kapan kamu datang?",
-      "audio": "/audio/Nǐ shénme shíhou lái.mp3"
+      "audio": "audio/Nǐ shénme shíhou lái.mp3"
     }
   ]
 },
@@ -866,13 +866,13 @@
   "hanzi": "在哪里",
   "pinyin": "zài nǎlǐ",
   "arti": "Di Mana",
-  "audio": "/audio/zainali.mp3",
+  "audio": "audio/zainali.mp3",
   "sentences": [
     {
       "cn": "厕所在哪里？",
       "pinyin": "Cèsuǒ zài nǎlǐ?",
       "id": "Toilet ada di mana?",
-      "audio": "/audio/Cèsuǒ zài nǎlǐ.mp3"
+      "audio": "audio/Cèsuǒ zài nǎlǐ.mp3"
     }
   ]
 },
@@ -880,13 +880,13 @@
   "hanzi": "为什么",
   "pinyin": "wèishénme",
   "arti": "Mengapa / Kenapa",
-  "audio": "/audio/weishenme.mp3",
+  "audio": "audio/weishenme.mp3",
   "sentences": [
     {
       "cn": "你为什么笑？",
       "pinyin": "Nǐ wèishénme xiào?",
       "id": "Kenapa kamu tertawa?",
-      "audio": "/audio/Nǐ wèishénme xiào.mp3"
+      "audio": "audio/Nǐ wèishénme xiào.mp3"
     }
   ]
 },
@@ -894,13 +894,13 @@
   "hanzi": "怎么",
   "pinyin": "zěnme",
   "arti": "Bagaimana",
-  "audio": "/audio/zenme.mp3",
+  "audio": "audio/zenme.mp3",
   "sentences": [
     {
       "cn": "这个怎么做？",
       "pinyin": "Zhège zěnme zuò?",
       "id": "Bagaimana cara melakukan ini?",
-      "audio": "/audio/Zhège zěnme zuò.mp3"
+      "audio": "audio/Zhège zěnme zuò.mp3"
     }
   ]
 }
@@ -910,92 +910,92 @@
     "hanzi": "气动泵",
     "pinyin": "qì dòng bèng",
     "arti": "Pompa Pneumatik",
-    "audio": "/audio/qidongbeng.mp3",
+    "audio": "audio/qidongbeng.mp3",
     "sentences": [
-      { "cn": "气动泵在运行。", "pinyin": "Qìdòngbèng zài yùnxíng.", "id": "Pompa pneumatik sedang beroperasi。", "audio": "/audio/Qìdòngbèng zài yùnxíng.mp3" },
-      { "cn": "我们检查了气动泵。", "pinyin": "Wǒmen jiǎnchá le qìdòngbèng.", "id": "Kami memeriksa pompa pneumatik。", "audio": "/audio/Wǒmen jiǎnchá le qìdòngbèng.mp3" }
+      { "cn": "气动泵在运行。", "pinyin": "Qìdòngbèng zài yùnxíng.", "id": "Pompa pneumatik sedang beroperasi。", "audio": "audio/Qìdòngbèng zài yùnxíng.mp3" },
+      { "cn": "我们检查了气动泵。", "pinyin": "Wǒmen jiǎnchá le qìdòngbèng.", "id": "Kami memeriksa pompa pneumatik。", "audio": "audio/Wǒmen jiǎnchá le qìdòngbèng.mp3" }
     ]
   },
   {
     "hanzi": "控制柜",
     "pinyin": "kòng zhì guì",
     "arti": "Lemari Kontrol",
-    "audio": "/audio/kongzhigui.mp3",
+    "audio": "audio/kongzhigui.mp3",
     "sentences": [
-      { "cn": "控制柜在车间里。", "pinyin": "Kòngzhìguì zài chējiān lǐ.", "id": "Lemari kontrol ada di bengkel。", "audio": "/audio/Kòngzhìguì zài chējiān lǐ.mp3" },
-      { "cn": "我们检查了控制柜。", "pinyin": "Wǒmen jiǎnchá le kòngzhìguì.", "id": "Kami memeriksa lemari kontrol。", "audio": "/audio/Wǒmen jiǎnchá le kòngzhìguì.mp3" }
+      { "cn": "控制柜在车间里。", "pinyin": "Kòngzhìguì zài chējiān lǐ.", "id": "Lemari kontrol ada di bengkel。", "audio": "audio/Kòngzhìguì zài chējiān lǐ.mp3" },
+      { "cn": "我们检查了控制柜。", "pinyin": "Wǒmen jiǎnchá le kòngzhìguì.", "id": "Kami memeriksa lemari kontrol。", "audio": "audio/Wǒmen jiǎnchá le kòngzhìguì.mp3" }
     ]
   },
   {
     "hanzi": "我想问",
     "pinyin": "wǒ xiǎng wèn",
     "arti": "Saya ingin bertanya",
-    "audio": "/audio/woxiangwen.mp3",
+    "audio": "audio/woxiangwen.mp3",
     "sentences": [
-      { "cn": "我想问一个问题。", "pinyin": "Wǒ xiǎng wèn yī gè wèntí.", "id": "Saya ingin bertanya satu pertanyaan。", "audio": "/audio/Wǒ xiǎng wèn yī gè wèntí.mp3" }
+      { "cn": "我想问一个问题。", "pinyin": "Wǒ xiǎng wèn yī gè wèntí.", "id": "Saya ingin bertanya satu pertanyaan。", "audio": "audio/Wǒ xiǎng wèn yī gè wèntí.mp3" }
     ]
   },
   {
     "hanzi": "有什么我可以帮忙的吗？",
     "pinyin": "yǒu shénme wǒ kěyǐ bāngmáng de ma?",
     "arti": "Apakah ada yang bisa saya bantu?",
-    "audio": "/audio/youmebangmang.mp3",
+    "audio": "audio/youmebangmang.mp3",
     "sentences": [
-      { "cn": "有什么我可以帮忙的吗？", "pinyin": "Yǒu shénme wǒ kěyǐ bāngmáng de ma?", "id": "Apakah ada yang bisa saya bantu？", "audio": "/audio/Yǒu shénme wǒ kěyǐ bāngmáng de ma.mp3" }
+      { "cn": "有什么我可以帮忙的吗？", "pinyin": "Yǒu shénme wǒ kěyǐ bāngmáng de ma?", "id": "Apakah ada yang bisa saya bantu？", "audio": "audio/Yǒu shénme wǒ kěyǐ bāngmáng de ma.mp3" }
     ]
   },
   {
     "hanzi": "新年快乐",
     "pinyin": "xīn nián kuài lè",
     "arti": "Selamat Tahun Baru",
-    "audio": "/audio/xinniankuaile.mp3",
+    "audio": "audio/xinniankuaile.mp3",
     "sentences": [
-      { "cn": "新年快乐！", "pinyin": "Xīnnián kuàilè!", "id": "Selamat Tahun Baru！", "audio": "/audio/xinniankuaile.mp3" }
+      { "cn": "新年快乐！", "pinyin": "Xīnnián kuàilè!", "id": "Selamat Tahun Baru！", "audio": "audio/xinniankuaile.mp3" }
     ]
   },
   {
     "hanzi": "今天",
     "pinyin": "jīn tiān",
     "arti": "Hari ini",
-    "audio": "/audio/jintian.mp3",
+    "audio": "audio/jintian.mp3",
     "sentences": [
-      { "cn": "今天很热。", "pinyin": "Jīntiān hěn rè.", "id": "Hari ini sangat panas。", "audio": "/audio/Jīntiān hěn rè.mp3" }
+      { "cn": "今天很热。", "pinyin": "Jīntiān hěn rè.", "id": "Hari ini sangat panas。", "audio": "audio/Jīntiān hěn rè.mp3" }
     ]
   },
   {
     "hanzi": "明天",
     "pinyin": "míng tiān",
     "arti": "Besok",
-    "audio": "/audio/mingtian.mp3",
+    "audio": "audio/mingtian.mp3",
     "sentences": [
-      { "cn": "明天见！", "pinyin": "Míngtiān jiàn!", "id": "Sampai besok！", "audio": "/audio/Míngtiān jiàn.mp3" }
+      { "cn": "明天见！", "pinyin": "Míngtiān jiàn!", "id": "Sampai besok！", "audio": "audio/Míngtiān jiàn.mp3" }
     ]
   },
   {
     "hanzi": "昨天",
     "pinyin": "zuó tiān",
     "arti": "Kemarin",
-    "audio": "/audio/zuotian.mp3",
+    "audio": "audio/zuotian.mp3",
     "sentences": [
-      { "cn": "昨天我很忙。", "pinyin": "Zuótiān wǒ hěn máng.", "id": "Kemarin saya sangat sibuk。", "audio": "/audio/Zuótiān wǒ hěn máng.mp3" }
+      { "cn": "昨天我很忙。", "pinyin": "Zuótiān wǒ hěn máng.", "id": "Kemarin saya sangat sibuk。", "audio": "audio/Zuótiān wǒ hěn máng.mp3" }
     ]
   },
   {
     "hanzi": "后天",
     "pinyin": "hòu tiān",
     "arti": "Lusa",
-    "audio": "/audio/houtian.mp3",
+    "audio": "audio/houtian.mp3",
     "sentences": [
-      { "cn": "我们后天见。", "pinyin": "Wǒmen hòutiān jiàn.", "id": "Kita bertemu lusa。", "audio": "/audio/Wǒmen hòutiān jiàn.mp3" }
+      { "cn": "我们后天见。", "pinyin": "Wǒmen hòutiān jiàn.", "id": "Kita bertemu lusa。", "audio": "audio/Wǒmen hòutiān jiàn.mp3" }
     ]
   },
   {
     "hanzi": "前天",
     "pinyin": "qián tiān",
     "arti": "Dua hari yang lalu",
-    "audio": "/audio/qiantian.mp3",
+    "audio": "audio/qiantian.mp3",
     "sentences": [
-      { "cn": "前天我去北京了。", "pinyin": "Qiántiān wǒ qù Běijīng le.", "id": "Dua hari yang lalu saya pergi ke Beijing。", "audio": "/audio/Qiántiān wǒ qù Běijīng le.mp3" }
+      { "cn": "前天我去北京了。", "pinyin": "Qiántiān wǒ qù Běijīng le.", "id": "Dua hari yang lalu saya pergi ke Beijing。", "audio": "audio/Qiántiān wǒ qù Běijīng le.mp3" }
     ]
   }
 ],
@@ -1004,90 +1004,90 @@
     "hanzi": "反应开始了吗？",
     "pinyin": "fǎn yìng kāi shǐ le ma?",
     "arti": "Apakah reaksi sudah mulai?",
-    "audio": "/audio/fanyingkaishilema.mp3",
+    "audio": "audio/fanyingkaishilema.mp3",
     "sentences": [
-      { "cn": "反应开始了吗？", "pinyin": "Fǎnyìng kāishǐ le ma?", "id": "Apakah reaksi sudah mulai?", "audio": "/audio/Fǎnyìng kāishǐ le ma.mp3" }
+      { "cn": "反应开始了吗？", "pinyin": "Fǎnyìng kāishǐ le ma?", "id": "Apakah reaksi sudah mulai?", "audio": "audio/Fǎnyìng kāishǐ le ma.mp3" }
     ]
   },
   {
     "hanzi": "离心机要清洗吗？",
     "pinyin": "lí xīn jī yào qīng xǐ ma?",
     "arti": "Apakah centrifuge perlu dibersihkan?",
-    "audio": "/audio/lixinjiyaoqingxima.mp3",
+    "audio": "audio/lixinjiyaoqingxima.mp3",
     "sentences": [
-      { "cn": "离心机要清洗吗？", "pinyin": "Líxīnjī yào qīngxǐ ma?", "id": "Apakah centrifuge perlu dibersihkan?", "audio": "/audio/Líxīnjī yào qīngxǐ ma.mp3" }
+      { "cn": "离心机要清洗吗？", "pinyin": "Líxīnjī yào qīngxǐ ma?", "id": "Apakah centrifuge perlu dibersihkan?", "audio": "audio/Líxīnjī yào qīngxǐ ma.mp3" }
     ]
   },
   {
     "hanzi": "已经启动了",
     "pinyin": "yǐ jīng qǐ dòng le",
     "arti": "Sudah dimulai",
-    "audio": "/audio/yijingqidongle.mp3",
+    "audio": "audio/yijingqidongle.mp3",
     "sentences": [
-      { "cn": "机器已经启动了。", "pinyin": "Jīqì yǐjīng qǐdòng le.", "id": "Mesin sudah dimulai.", "audio": "/audio/Jīqì yǐjīng qǐdòng le.mp3" }
+      { "cn": "机器已经启动了。", "pinyin": "Jīqì yǐjīng qǐdòng le.", "id": "Mesin sudah dimulai.", "audio": "audio/Jīqì yǐjīng qǐdòng le.mp3" }
     ]
   },
   {
     "hanzi": "高速搅拌",
     "pinyin": "gāo sù jiǎo bàn",
     "arti": "Pengadukan berkecepatan tinggi",
-    "audio": "/audio/gaosujiaoban.mp3",
+    "audio": "audio/gaosujiaoban.mp3",
     "sentences": [
-      { "cn": "我们需要高速搅拌。", "pinyin": "Wǒmen xūyào gāosù jiǎobàn.", "id": "Kita perlu pengadukan berkecepatan tinggi.", "audio": "/audio/Wǒmen xūyào gāosù jiǎobàn.mp3" }
+      { "cn": "我们需要高速搅拌。", "pinyin": "Wǒmen xūyào gāosù jiǎobàn.", "id": "Kita perlu pengadukan berkecepatan tinggi.", "audio": "audio/Wǒmen xūyào gāosù jiǎobàn.mp3" }
     ]
   },
   {
     "hanzi": "你要去哪里？",
     "pinyin": "nǐ yào qù nǎ lǐ?",
     "arti": "Kamu mau pergi ke mana?",
-    "audio": "/audio/niyaoqunali.mp3",
+    "audio": "audio/niyaoqunali.mp3",
     "sentences": [
-      { "cn": "你要去哪里？", "pinyin": "Nǐ yào qù nǎlǐ?", "id": "Kamu mau pergi ke mana?", "audio": "/audio/niyaoqunali.mp3" }
+      { "cn": "你要去哪里？", "pinyin": "Nǐ yào qù nǎlǐ?", "id": "Kamu mau pergi ke mana?", "audio": "audio/niyaoqunali.mp3" }
     ]
   },
   {
     "hanzi": "帮我一下",
     "pinyin": "bāng wǒ yí xià",
     "arti": "Tolong bantu saya sebentar",
-    "audio": "/audio/bangwoyixia.mp3",
+    "audio": "audio/bangwoyixia.mp3",
     "sentences": [
-      { "cn": "请帮我一下。", "pinyin": "Qǐng bāng wǒ yíxià.", "id": "Tolong bantu saya sebentar.", "audio": "/audio/Qǐng bāng wǒ yíxià.mp3" }
+      { "cn": "请帮我一下。", "pinyin": "Qǐng bāng wǒ yíxià.", "id": "Tolong bantu saya sebentar.", "audio": "audio/Qǐng bāng wǒ yíxià.mp3" }
     ]
   },
   {
     "hanzi": "小心一点",
     "pinyin": "xiǎo xīn yì diǎn",
     "arti": "Hati-hati",
-    "audio": "/audio/xiaoxinyidian.mp3",
+    "audio": "audio/xiaoxinyidian.mp3",
     "sentences": [
-      { "cn": "过马路要小心一点。", "pinyin": "Guò mǎlù yào xiǎoxīn yīdiǎn.", "id": "Menyeberang jalan harus hati-hati.", "audio": "/audio/Guò mǎlù yào xiǎoxīn yīdiǎn.mp3" }
+      { "cn": "过马路要小心一点。", "pinyin": "Guò mǎlù yào xiǎoxīn yīdiǎn.", "id": "Menyeberang jalan harus hati-hati.", "audio": "audio/Guò mǎlù yào xiǎoxīn yīdiǎn.mp3" }
     ]
   },
   {
     "hanzi": "秒",
     "pinyin": "miǎo",
     "arti": "Detik",
-    "audio": "/audio/miao.mp3",
+    "audio": "audio/miao.mp3",
     "sentences": [
-      { "cn": "请等一秒。", "pinyin": "Qǐng děng yī miǎo.", "id": "Tolong tunggu satu detik.", "audio": "/audio/Qǐng děng yī miǎo.mp3" }
+      { "cn": "请等一秒。", "pinyin": "Qǐng děng yī miǎo.", "id": "Tolong tunggu satu detik.", "audio": "audio/Qǐng děng yī miǎo.mp3" }
     ]
   },
   {
     "hanzi": "分钟",
     "pinyin": "fēn zhōng",
     "arti": "Menit",
-    "audio": "/audio/fenzhong.mp3",
+    "audio": "audio/fenzhong.mp3",
     "sentences": [
-      { "cn": "等五分钟。", "pinyin": "Děng wǔ fēnzhōng.", "id": "Tunggu lima menit.", "audio": "/audio/Děng wǔ fēnzhōng.mp3" }
+      { "cn": "等五分钟。", "pinyin": "Děng wǔ fēnzhōng.", "id": "Tunggu lima menit.", "audio": "audio/Děng wǔ fēnzhōng.mp3" }
     ]
   },
   {
     "hanzi": "小时",
     "pinyin": "xiǎo shí",
     "arti": "Jam",
-    "audio": "/audio/xiaoshi.mp3",
+    "audio": "audio/xiaoshi.mp3",
     "sentences": [
-      { "cn": "我睡了八个小时。", "pinyin": "Wǒ shuì le bā gè xiǎoshí.", "id": "Saya tidur delapan jam.", "audio": "/audio/Wǒ shuì le bā gè xiǎoshí.mp3" }
+      { "cn": "我睡了八个小时。", "pinyin": "Wǒ shuì le bā gè xiǎoshí.", "id": "Saya tidur delapan jam.", "audio": "audio/Wǒ shuì le bā gè xiǎoshí.mp3" }
     ]
   }
 ],
@@ -1096,90 +1096,90 @@
     "hanzi": "压力",
     "pinyin": "yā lì",
     "arti": "Tekanan",
-    "audio": "/audio/yali.mp3",
+    "audio": "audio/yali.mp3",
     "sentences": [
-      { "cn": "压力很大。", "pinyin": "Yālì hěn dà.", "id": "Tekanannya sangat besar.", "audio": "/audio/Yālì hěn dà.mp3" }
+      { "cn": "压力很大。", "pinyin": "Yālì hěn dà.", "id": "Tekanannya sangat besar.", "audio": "audio/Yālì hěn dà.mp3" }
     ]
   },
   {
     "hanzi": "速度",
     "pinyin": "sù dù",
     "arti": "Kecepatan",
-    "audio": "/audio/sudu.mp3",
+    "audio": "audio/sudu.mp3",
     "sentences": [
-      { "cn": "速度很快。", "pinyin": "Sùdù hěn kuài.", "id": "Sangat cepat.", "audio": "/audio/Sùdù hěn kuài.mp3" }
+      { "cn": "速度很快。", "pinyin": "Sùdù hěn kuài.", "id": "Sangat cepat.", "audio": "audio/Sùdù hěn kuài.mp3" }
     ]
   },
   {
     "hanzi": "浓度",
     "pinyin": "nóng dù",
     "arti": "Konsentrasi",
-    "audio": "/audio/nongdu.mp3",
+    "audio": "audio/nongdu.mp3",
     "sentences": [
-      { "cn": "溶液的浓度是多少？", "pinyin": "Róngyè de nóngdù shì duōshǎo?", "id": "Berapa konsentrasi larutannya?", "audio": "/audio/Róngyè de nóngdù shì duōshǎo.mp3" }
+      { "cn": "溶液的浓度是多少？", "pinyin": "Róngyè de nóngdù shì duōshǎo?", "id": "Berapa konsentrasi larutannya?", "audio": "audio/Róngyè de nóngdù shì duōshǎo.mp3" }
     ]
   },
   {
     "hanzi": "密度",
     "pinyin": "mì dù",
     "arti": "Densitas",
-    "audio": "/audio/midu.mp3",
+    "audio": "audio/midu.mp3",
     "sentences": [
-      { "cn": "水的密度是1克每毫升。", "pinyin": "Shuǐ de mìdù shì yī kè měi háoshēng.", "id": "Densitas air adalah 1 g/ml.", "audio": "/audio/Shuǐ de mìdù shì yī kè měi háoshēng.mp3" }
+      { "cn": "水的密度是1克每毫升。", "pinyin": "Shuǐ de mìdù shì yī kè měi háoshēng.", "id": "Densitas air adalah 1 g/ml.", "audio": "audio/Shuǐ de mìdù shì yī kè měi háoshēng.mp3" }
     ]
   },
   {
     "hanzi": "有泄漏",
     "pinyin": "yǒu xiè lòu",
     "arti": "Ada kebocoran",
-    "audio": "/audio/youxielou.mp3",
+    "audio": "audio/youxielou.mp3",
     "sentences": [
-      { "cn": "这里有泄漏！", "pinyin": "Zhèlǐ yǒu xièlòu!", "id": "Ada kebocoran di sini!", "audio": "/audio/Zhèlǐ yǒu xièlòu.mp3" }
+      { "cn": "这里有泄漏！", "pinyin": "Zhèlǐ yǒu xièlòu!", "id": "Ada kebocoran di sini!", "audio": "audio/Zhèlǐ yǒu xièlòu.mp3" }
     ]
   },
   {
     "hanzi": "分析员",
     "pinyin": "fēn xī yuán",
     "arti": "Analis",
-    "audio": "/audio/fenxiyuan.mp3",
+    "audio": "audio/fenxiyuan.mp3",
     "sentences": [
-      { "cn": "她是实验室的分析员。", "pinyin": "Tā shì shíyànshì de fēnxīyuán.", "id": "Dia adalah analis di laboratorium.", "audio": "/audio/Tā shì shíyànshì de fēnxīyuán.mp3" }
+      { "cn": "她是实验室的分析员。", "pinyin": "Tā shì shíyànshì de fēnxīyuán.", "id": "Dia adalah analis di laboratorium.", "audio": "audio/Tā shì shíyànshì de fēnxīyuán.mp3" }
     ]
   },
   {
     "hanzi": "口罩",
     "pinyin": "kǒu zhào",
     "arti": "Masker",
-    "audio": "/audio/kouzhao.mp3",
+    "audio": "audio/kouzhao.mp3",
     "sentences": [
-      { "cn": "请戴上口罩。", "pinyin": "Qǐng dài shàng kǒuzhào.", "id": "Silakan pakai masker.", "audio": "/audio/Qǐng dài shàng kǒuzhào.mp3" }
+      { "cn": "请戴上口罩。", "pinyin": "Qǐng dài shàng kǒuzhào.", "id": "Silakan pakai masker.", "audio": "audio/Qǐng dài shàng kǒuzhào.mp3" }
     ]
   },
   {
     "hanzi": "手套",
     "pinyin": "shǒu tào",
     "arti": "Sarung tangan",
-    "audio": "/audio/shoutao.mp3",
+    "audio": "audio/shoutao.mp3",
     "sentences": [
-      { "cn": "别忘了戴手套。", "pinyin": "Bié wàngle dài shǒutào.", "id": "Jangan lupa pakai sarung tangan.", "audio": "/audio/Bié wàngle dài shǒutào.mp3" }
+      { "cn": "别忘了戴手套。", "pinyin": "Bié wàngle dài shǒutào.", "id": "Jangan lupa pakai sarung tangan.", "audio": "audio/Bié wàngle dài shǒutào.mp3" }
     ]
   },
   {
     "hanzi": "我明白了",
     "pinyin": "wǒ míng bái le",
     "arti": "Saya mengerti",
-    "audio": "/audio/womingbaile.mp3",
+    "audio": "audio/womingbaile.mp3",
     "sentences": [
-      { "cn": "我明白了，谢谢。", "pinyin": "Wǒ míngbái le, xièxie.", "id": "Saya mengerti, terima kasih.", "audio": "/audio/Wǒ míngbái le, xièxie.mp3" }
+      { "cn": "我明白了，谢谢。", "pinyin": "Wǒ míngbái le, xièxie.", "id": "Saya mengerti, terima kasih.", "audio": "audio/Wǒ míngbái le, xièxie.mp3" }
     ]
   },
   {
     "hanzi": "我看到了",
     "pinyin": "wǒ kàn dào le",
     "arti": "Saya melihat",
-    "audio": "/audio/wokandaole.mp3",
+    "audio": "audio/wokandaole.mp3",
     "sentences": [
-      { "cn": "我看到了问题。", "pinyin": "Wǒ kàndào le wèntí.", "id": "Saya melihat masalahnya.", "audio": "/audio/Wǒ kàndào le wèntí.mp3" }
+      { "cn": "我看到了问题。", "pinyin": "Wǒ kàndào le wèntí.", "id": "Saya melihat masalahnya.", "audio": "audio/Wǒ kàndào le wèntí.mp3" }
     ]
   }
 ],
@@ -1188,90 +1188,90 @@
     "hanzi": "氮气",
     "pinyin": "dàn qì",
     "arti": "Nitrogen",
-    "audio": "/audio/danqi.mp3",
+    "audio": "audio/danqi.mp3",
     "sentences": [
-      { "cn": "实验室里有氮气瓶。", "pinyin": "Shíyànshì lǐ yǒu dànqì píng.", "id": "Di laboratorium ada tabung nitrogen.", "audio": "/audio/Shíyàn shì li yǒu dànqì píng.mp3"}
+      { "cn": "实验室里有氮气瓶。", "pinyin": "Shíyànshì lǐ yǒu dànqì píng.", "id": "Di laboratorium ada tabung nitrogen.", "audio": "audio/Shíyàn shì li yǒu dànqì píng.mp3"}
     ]
   },
   {
     "hanzi": "氧气",
     "pinyin": "yǎng qì",
     "arti": "Oksigen",
-    "audio": "/audio/yangqi.mp3",
+    "audio": "audio/yangqi.mp3",
     "sentences": [
-      { "cn": "氧气很重要。", "pinyin": "Yǎngqì hěn zhòngyào.", "id": "Oksigen itu penting.", "audio": "/audio/Yǎngqì hěn zhòngyào.mp3" }
+      { "cn": "氧气很重要。", "pinyin": "Yǎngqì hěn zhòngyào.", "id": "Oksigen itu penting.", "audio": "audio/Yǎngqì hěn zhòngyào.mp3" }
     ]
   },
   {
     "hanzi": "打开",
     "pinyin": "dǎ kāi",
     "arti": "Buka / Nyalakan",
-    "audio": "/audio/dakai.mp3",
+    "audio": "audio/dakai.mp3",
     "sentences": [
-      { "cn": "请打开门。", "pinyin": "Qǐng dǎkāi mén.", "id": "Tolong buka pintu.", "audio": "/audio/Qǐng dǎkāi mén.mp3" }
+      { "cn": "请打开门。", "pinyin": "Qǐng dǎkāi mén.", "id": "Tolong buka pintu.", "audio": "audio/Qǐng dǎkāi mén.mp3" }
     ]
   },
   {
     "hanzi": "关闭",
     "pinyin": "guān bì",
     "arti": "Tutup / Matikan",
-    "audio": "/audio/guanbi.mp3",
+    "audio": "audio/guanbi.mp3",
     "sentences": [
-      { "cn": "请关闭窗户。", "pinyin": "Qǐng guānbì chuānghù.", "id": "Tolong tutup jendela.", "audio": "/audio/Qǐng guānbì chuānghù.mp3" }
+      { "cn": "请关闭窗户。", "pinyin": "Qǐng guānbì chuānghù.", "id": "Tolong tutup jendela.", "audio": "audio/Qǐng guānbì chuānghù.mp3" }
     ]
   },
   {
     "hanzi": "启动",
     "pinyin": "qǐ dòng",
     "arti": "Mulai / Nyalakan",
-    "audio": "/audio/qidong.mp3",
+    "audio": "audio/qidong.mp3",
     "sentences": [
-      { "cn": "机器已经启动了。", "pinyin": "Jīqì yǐjīng qǐdòng le.", "id": "Mesin sudah dimulai.", "audio": "/audio/Jīqì yǐjīng qǐdòng le.mp3" }
+      { "cn": "机器已经启动了。", "pinyin": "Jīqì yǐjīng qǐdòng le.", "id": "Mesin sudah dimulai.", "audio": "audio/Jīqì yǐjīng qǐdòng le.mp3" }
     ]
   },
   {
     "hanzi": "手动",
     "pinyin": "shǒu dòng",
     "arti": "Manual",
-    "audio": "/audio/shoudong.mp3",
+    "audio": "audio/shoudong.mp3",
     "sentences": [
-      { "cn": "请用手动模式操作。", "pinyin": "Qǐng yòng shǒudòng móshì cāozuò.", "id": "Silakan operasikan dengan mode manual.", "audio": "/audio/Qǐng yòng shǒudòng móshì cāozuò.mp3" }
+      { "cn": "请用手动模式操作。", "pinyin": "Qǐng yòng shǒudòng móshì cāozuò.", "id": "Silakan operasikan dengan mode manual.", "audio": "audio/Qǐng yòng shǒudòng móshì cāozuò.mp3" }
     ]
   },
   {
     "hanzi": "自动",
     "pinyin": "zì dòng",
     "arti": "Otomatis",
-    "audio": "/audio/zidong.mp3",
+    "audio": "audio/zidong.mp3",
     "sentences": [
-      { "cn": "机器可以自动运行。", "pinyin": "Jīqì kěyǐ zìdòng yùnxíng.", "id": "Mesin bisa berjalan otomatis.", "audio": "/audio/Jīqì kěyǐ zìdòng yùnxíng.mp3" }
+      { "cn": "机器可以自动运行。", "pinyin": "Jīqì kěyǐ zìdòng yùnxíng.", "id": "Mesin bisa berjalan otomatis.", "audio": "audio/Jīqì kěyǐ zìdòng yùnxíng.mp3" }
     ]
   },
   {
     "hanzi": "滴定",
     "pinyin": "dī dìng",
     "arti": "Titrasi",
-    "audio": "/audio/diding.mp3",
+    "audio": "audio/diding.mp3",
     "sentences": [
-      { "cn": "我们在实验中滴定溶液。", "pinyin": "Wǒmen zài shíyàn zhōng dīdìng róngyè.", "id": "Kami menitrasi larutan di laboratorium.", "audio": "/audio/Wǒmen zài shíyàn zhōng dīdìng róngyè.mp3" }
+      { "cn": "我们在实验中滴定溶液。", "pinyin": "Wǒmen zài shíyàn zhōng dīdìng róngyè.", "id": "Kami menitrasi larutan di laboratorium.", "audio": "audio/Wǒmen zài shíyàn zhōng dīdìng róngyè.mp3" }
     ]
   },
   {
     "hanzi": "循环",
     "pinyin": "xún huán",
     "arti": "Sirkulasi / Loop",
-    "audio": "/audio/xunhuan.mp3",
+    "audio": "audio/xunhuan.mp3",
     "sentences": [
-      { "cn": "液体在管道中循环。", "pinyin": "Yètǐ zài guǎndào zhōng xúnhuán.", "id": "Cairan bersirkulasi di pipa.", "audio": "/audio/Yètǐ zài guǎndào zhōng xúnhuán.mp3" }
+      { "cn": "液体在管道中循环。", "pinyin": "Yètǐ zài guǎndào zhōng xúnhuán.", "id": "Cairan bersirkulasi di pipa.", "audio": "audio/Yètǐ zài guǎndào zhōng xúnhuán.mp3" }
     ]
   },
   {
     "hanzi": "输入数据",
     "pinyin": "shū rù shù jù",
     "arti": "Masukkan data",
-    "audio": "/audio/shurushuju.mp3",
+    "audio": "audio/shurushuju.mp3",
     "sentences": [
-      { "cn": "请在电脑上输入数据。", "pinyin": "Qǐng zài diànnǎo shàng shūrù shùjù.", "id": "Silakan masukkan data di komputer.", "audio": "/audio/Qǐng zài diànnǎo shàng shūrù shùjù.mp3" }
+      { "cn": "请在电脑上输入数据。", "pinyin": "Qǐng zài diànnǎo shàng shūrù shùjù.", "id": "Silakan masukkan data di komputer.", "audio": "audio/Qǐng zài diànnǎo shàng shūrù shùjù.mp3" }
     ]
   }
 ]
