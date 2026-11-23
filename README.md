@@ -136,6 +136,34 @@ Edit `assets/css/main.css`, `:root` block:
 To change the accent colour, update `--accent`, `--accent-dark` and
 `--accent-wash` together; every other colour is neutral.
 
+## Asset versioning — bump this when CSS or JS changes
+
+GitHub Pages serves every file with `Cache-Control: max-age=600` and does not
+fingerprint asset URLs, so a browser or the Fastly edge can keep an old
+stylesheet for up to ten minutes after a deploy. That is how a page can look
+correct locally while the deployed copy renders unstyled.
+
+The stylesheet and script are therefore requested with a version token, as
+root-relative URLs (the site is a user site at the domain root, and root-relative
+paths also keep `404.html` styled when it is served from a nested path):
+
+```html
+<link rel="stylesheet" href="/assets/css/main.css?v=20261123">
+<script src="/assets/js/main.js?v=20261123" defer></script>
+```
+
+**After editing `assets/css/main.css` or `assets/js/main.js`, change the token
+in all seven HTML files** — today's date (`YYYYMMDD`) is enough:
+
+```bash
+cd ~/Projects/mulkisuyadi.github.io
+sed -i 's/main\.css?v=[0-9]*/main.css?v=20261124/; s/main\.js?v=[0-9]*/main.js?v=20261124/' *.html
+grep -o 'main\.\(css\|js\)?v=[0-9]*' *.html | sort -u
+```
+
+Leaving the token unchanged means returning visitors keep the old stylesheet
+until their cache expires.
+
 ## Accessibility and performance
 
 - Semantic landmarks, one `h1` per page, skip link, visible focus rings
