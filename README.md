@@ -112,13 +112,15 @@ These are deliberate placeholders. Search the project for each item.
 
 | Item | Where | Note |
 |---|---|---|
-| `your.email@example.com` | all pages (footer, CTA buttons) | Real contact address |
-| Master's thesis title, supervisor, abstract | `research.html` §05 | Highest-value missing content for a PhD application |
-| Bachelor's final project title | `research.html` §05 | May be related to the published glycerol work |
 | Project images / drawing excerpts | `portfolio.html` (5 `.project__media` blocks) | Only material cleared for public release |
 | LinkedIn / Google Scholar / ORCID | footer, all pages | Add if the profiles exist |
 | Coursework, additional certifications | `learning.html` | Only externally issued credentials |
 | PhD target / research statement length | `research.html` §00 | Optional: a longer version for specific applications |
+
+Both theses are now recorded in `research.html` §05 with titles, supervisors,
+methods and key findings, each linking to its ITB Digital Library record. The
+master's thesis entry in that library carries **no attached file** — link the
+record, never imply a downloadable PDF.
 
 ## Design tokens
 
