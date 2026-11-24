@@ -112,7 +112,6 @@ These are deliberate placeholders. Search the project for each item.
 
 | Item | Where | Note |
 |---|---|---|
-| Project images / drawing excerpts | `portfolio.html` (5 `.project__media` blocks) | Only material cleared for public release |
 | LinkedIn / Google Scholar / ORCID | footer, all pages | Add if the profiles exist |
 | Coursework, additional certifications | `learning.html` | Only externally issued credentials |
 | PhD target / research statement length | `research.html` §00 | Optional: a longer version for specific applications |
